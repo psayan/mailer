@@ -1,5 +1,3 @@
-'use strict';
-
 export const transport = {
     host: "smtp-mail.outlook.com", // hostname
     secureConnection: false, // TLS requires secureConnection to be false

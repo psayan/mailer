@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.transport = {
     host: "smtp-mail.outlook.com",
@@ -8,8 +8,10 @@ exports.transport = {
         ciphers: 'SSLv3'
     },
     auth: {
-        user: "isayanpal@live.com",
-        pass: "sAyn8100069307"
+        //  Example
+        user: "example@live.com",
+        pass: "password"
     }
 };
+exports.senderAddress = '"Example" <example@live.com>';
 //# sourceMappingURL=config.js.map

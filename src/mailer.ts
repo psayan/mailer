@@ -1,4 +1,3 @@
-'use strict';
 // nodemailer module
 import * as nodemailer from "nodemailer";
 // custom config file
@@ -26,7 +25,7 @@ app.listen(port, () => {
 // console.log(transport);
 
 // post request handler
-function sendMail(request: any, response: any): void {
+function sendMail(request: express.Request, response: express.Response): void {
     // create reusable transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport(transport);
     console.log("recipient is " + request.body.to);
