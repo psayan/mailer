@@ -1,0 +1,20 @@
+{
+  "name": "mailer",
+  "version": "0.0.1",
+  "description": "My first handson with TS",
+  "main": "mailer.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mailer",
+    "firstTS",
+    "vscode"
+  ],
+  "author": "psayan",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/psayan/mailer.git"
+  }
+}
