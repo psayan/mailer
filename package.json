@@ -2,7 +2,7 @@
   "name": "mailer",
   "version": "0.0.1",
   "description": "My first handson with TS",
-  "main": "mailer.ts",
+  "main": "mailer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +16,15 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/psayan/mailer.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "nodemailer": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.16.3",
+    "@types/express": "^4.0.35",
+    "@types/nodemailer": "^1.3.32"
   }
 }
